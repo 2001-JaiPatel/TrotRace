@@ -1,0 +1,25 @@
+{
+  "name": "trot-assign",
+  "version": "1.0.0",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "axios": "^0.21.1",
+    "axios-retry": "^3.1.9",
+    "dotenv": "^10.0.0",
+    "jest": "^27.0.6",
+    "mongodb-memory-server": "^7.3.4",
+    "mongoose": "^5.13.4",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

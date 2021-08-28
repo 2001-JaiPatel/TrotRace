@@ -1,5 +1,3 @@
-# TrotRace
-Trot Race application : using API call
 # Trot assignment
 #---------------------------------------
 #Steps to install and run
